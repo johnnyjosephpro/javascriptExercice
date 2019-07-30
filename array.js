@@ -17,9 +17,3 @@ while (cont<qt){
         console.log("========")
     cont ++ 
 }
-
-// Return Array with Square
-        console.log("The Square of Array is: ")
-let ages=students.map(student => Math.sqrt(student.age).toFixed(2))
-        console.log(ages)
-
