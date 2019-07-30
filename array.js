@@ -1,6 +1,4 @@
-//let arr=[1,2,3,4,5]
-//console.log(arr[1])
-
+//Let me using Array for a square
 
 let students = [
     {name: "Jephte", age: 27},
@@ -13,15 +11,15 @@ let students = [
 let cont=0
 let qt=students.length
 
-
 while (cont<qt){
-    console.log(students[cont].age)
+    
+        console.log(students[cont].age)
         console.log("========")
     cont ++ 
 }
 
+// Function return Array
+//let sqrtage=Math.sqrt(students[cont].age)
+let ages=students.map(student => Math.sqrt(student.age))
+    console.log(ages)
 
-
-let ages=students.map(student => student.age)
-
-console.log(ages)
