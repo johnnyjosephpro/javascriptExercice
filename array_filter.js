@@ -21,6 +21,7 @@ while (i<cont){
     }
     i ++
 }
+
     console.log(stud)
     console.log("============================================================================")
     //Methode filter return Array
