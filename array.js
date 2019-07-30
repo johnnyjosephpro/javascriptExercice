@@ -10,16 +10,16 @@ let students = [
 
 let cont=0
 let qt=students.length
-
+        console.log("These are all ages, we have in this table:")
 while (cont<qt){
+        
         console.log(students[cont].age)
         console.log("========")
     cont ++ 
 }
 
-// Function return Array
-//let sqrtage=Math.sqrt(students[cont].age)
+// Return Array with Square
         console.log("The Square of Array is: ")
 let ages=students.map(student => Math.sqrt(student.age).toFixed(2))
-    console.log(ages)
+        console.log(ages)
 
