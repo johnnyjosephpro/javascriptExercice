@@ -17,3 +17,7 @@ for(i=0; i<par ; i++){
     totalAge = totalAge + students[i].age
 } 
 console.log(totalAge)
+
+//How to calculate the average of students ages
+//Reduce ((acc,val,index,arr),initValue)
+
