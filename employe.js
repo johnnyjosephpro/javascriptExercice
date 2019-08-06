@@ -40,3 +40,22 @@ console.log(employeeRaisedSup)
 // Create a function that take an array of numbers and output the biggest number.
 console.log("\n=====================================================================")
 
+let numbers=[1,4,7,34,65,23,65,34,87,44,256,9]
+let sup
+// Premiere facon
+function myArrayMax(arr) {
+    return Math.max.apply(null, arr);
+  }
+
+  sup=myArrayMax(numbers)
+  console.log("Premiere facon: " +sup)
+
+  console.log("\n=====================================================================")
+
+  //Deuxieme facon
+let sup2=[]
+  sup2=numbers.reduce((acc,val)=>{
+      return Math.max(acc,val)
+  })
+
+  console.log("Deuxieme facon: " +sup2)
