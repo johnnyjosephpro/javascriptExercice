@@ -36,3 +36,7 @@ while (i<cont){
 }
 console.log("Using the new array employeeRaised, add all the Manager salary that are higher than 12000:")
 console.log(employeeRaisedSup)
+
+// Create a function that take an array of numbers and output the biggest number.
+console.log("\n=====================================================================")
+
