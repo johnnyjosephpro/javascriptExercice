@@ -16,7 +16,7 @@ const employee = [
 
 let employeeRaised=[]
 
-employeeRaised= employee.filter(employe => employe.position=="Manager").map(addsal =>addsal.salary+1000)
+employeeRaised= employee.filter(employe => employe.position=="Manager").map(addsal => addsal.salary+1000)
 console.log("\nAdd 1000 to all the Manager salaries in a new array named employeeRaised:")
 console.log(employeeRaised)
 console.log("=====================================================================\n")
