@@ -5,6 +5,17 @@ let max = arr.reduce(function(a,b) {
 
 console.log(max)
 
-x=Math.log(240.000)
+x=Math.log2(240,000)
 
 console.log(x)
+
+const str = "  Hello World  ";
+
+console.log(str.trimLeft());
+// "Hello World  "
+
+console.log(str.trimRight());
+// "  Hello World"
+
+console.log(str.trim());
+// "Hello World"
