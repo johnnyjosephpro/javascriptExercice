@@ -23,3 +23,5 @@ function binary_search(list,item){
 
     console.log(trouver)
 
+    
+

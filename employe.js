@@ -52,6 +52,16 @@ function myArrayMax(arr) {
 
   console.log("\n=====================================================================")
 
+//   let maximum=Array[0]
+
+// for (i=0; i<Array.length; i++){
+
+//     if (Array[i]>maximum)
+//         maximum=Array[i]
+// }
+// console.log(i)
+
+
   //Deuxieme facon
 let sup2=[]
   sup2=numbers.reduce((acc,val)=>{

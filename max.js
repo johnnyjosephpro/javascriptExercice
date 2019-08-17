@@ -19,3 +19,17 @@ console.log(str.trimRight());
 
 console.log(str.trim());
 // "Hello World"
+
+
+// Maximum
+
+let Array = [5,2,7,4,8,6,3,0,9];
+        //console.log(Math.max(...Array));
+let maximum=Array[0]
+
+for (i=0; i<Array.length; i++){
+
+    if (Array[i]>maximum)
+        maximum=Array[i]
+}
+console.log(i)
