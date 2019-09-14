@@ -69,3 +69,4 @@ let sup2=[]
   })
 
   console.log("Deuxieme facon: " +sup2)
+  
